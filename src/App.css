@@ -490,7 +490,21 @@ body {
 .navbar-link.active {
   color: #007bff;
 }
-
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.welcome-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
 
 @media (max-width: 768px) {
   .navbar-container {
